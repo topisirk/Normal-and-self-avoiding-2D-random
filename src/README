@@ -5,3 +5,9 @@ topisirk@lx7-fuxi191:/home/local/topisirk/Desktop/Tila2/sirkia_topi_sc2_project4
 
 The program is now ready to be run.
 
+To run, use ./a.out along with 3 parameters. The parameters are n (number of walks), yes/no (trajectories to textfiles? can take alot of space for more than a few thousand walks as the walks are quite long)
+and lastly nrw/saw (normal or self-avoiding walks). For example
+
+topisirk@lx7-fuxi191:/home/local/topisirk/Desktop/Tila2/sirkia_topi_sc2_project4/tempname/src$ ./a.out 5000 yes saw
+
+The running time can vary a lot depending on the parameters, but 1000 saw walks with trajectories to text files took me 35s.
