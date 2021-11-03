@@ -1,0 +1,21 @@
+The output of the program should look like (nrw)
+
+ 10000 sailors started, of which   5558 made it in time and    27 died of old age
+
+probability of dying of old age: 0.0027
+probability of making it in time: 0.5558
+
+max dist: 2628000.00 (km)
+min dist:       1.30 (km)
+avg dist:  13754.90 (km)
+
+ max time:
+50 years
+  
+ min time:
+13 minutes
+  
+ avg time:
+ 95 days, 12 hours and 29 minutes
+  
+ Runtime:    434.033997 

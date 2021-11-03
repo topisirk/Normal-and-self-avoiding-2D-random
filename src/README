@@ -1,0 +1,7 @@
+To compile with gfortran, use 'gfortran -c stat.f90 mtfort.f90 sailor.f90' on the command line, while being in the right directory (src). After this is done, you can link the files using 'gfortran sailor.o stat.o mtfort90.o'. It's important that in compilation sailor.f90 is the last file in the list. For example,
+
+topisirk@lx7-fuxi191:/home/local/topisirk/Desktop/Tila2/sirkia_topi_sc2_project4/tempname/src$ gfortran -c stat.f90 mtfort90.f90 sailor.f90
+topisirk@lx7-fuxi191:/home/local/topisirk/Desktop/Tila2/sirkia_topi_sc2_project4/tempname/src$ gfortran sailor.o stat.o mtfort90.o
+
+The program is now ready to be run.
+

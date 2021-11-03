@@ -1,0 +1,7 @@
+To run the program, use './a.out n traj walktype' in the command line while being in the src directory. Replace n with the amount of sailors you want to simulate (10000 suggested), traj with yes or no (no suggested for faster computation of statistics) and walktype with nrw or saw depending on which walk you want to simulate. For example,
+
+topisirk@lx7-fuxi191:/home/local/topisirk/Desktop/Tila2/sirkia_topi_sc2_project4/tempname/src$ ./a.out 10000 no saw
+
+If you write yes for trajectories, the trajectory files can be found in the trajectories folder in /src, along with a very simple python program that one can use to visualize the plots. If you want to plot the trajectory of sailor 6 for example, run 'python3 plots.py' in the command line while in the trajectories folder. The sailor number can be replaced in the code if wanted, along with the axis. The default axis are from -50 to 50 in both x and y directions. For SAW the walk usually fits very nicely into this, but for NRW you might need to change the axis. Pyplot allows for zooming in but not out, so its better to have the path too zoomed out.
+
+
